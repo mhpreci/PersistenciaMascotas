@@ -1,3 +1,5 @@
 
 
-java:S1319"sThe type of the "animales" object should be an interface such as "List" rather than the implementation "ArrayList".(ºúğ8½ñÖÚ.
+java:S1319"sThe type of the "animales" object should be an interface such as "List" rather than the implementation "ArrayList".(ºúğ8½ñÖÚ.
+O
+java:S1128"3Remove this unused import 'android.content.Intent'.(³ğ‹G8üÁûÒÛ.

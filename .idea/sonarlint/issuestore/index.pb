@@ -7,3 +7,5 @@ g
 7app/src/main/java/com/mscode/myanimal/MainActivity.java,d\c\dce82e529446d3338d35037cacdeb10d58d8d4ab
 j
 :app/src/main/java/com/mscode/myanimal/AnimalAdaptador.java,f\0\f06164216c1437b4ca552a02ff1ece3a3dbe8198
+h
+8app/src/main/java/com/mscode/myanimal/DetalleAnimal.java,a\c\ac5b475de26654f3e43f73e128f303e10528ee42

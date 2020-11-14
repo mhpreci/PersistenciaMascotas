@@ -2,4 +2,6 @@
     <string name="app_name">MyAnimal</string>
     <string name="count_name">0</string>
     <string name="tarjeta">0</string>
+    <string name="menu_contacto">Contacto</string>
+    <string name="menu_acerca">Acerca de</string>
 </resources>
