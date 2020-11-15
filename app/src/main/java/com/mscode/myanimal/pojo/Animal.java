@@ -1,4 +1,4 @@
-package com.mscode.myanimal;
+package com.mscode.myanimal.pojo;
 
 public class Animal {
 
