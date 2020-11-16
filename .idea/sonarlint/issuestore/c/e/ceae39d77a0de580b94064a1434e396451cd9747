@@ -1,0 +1,14 @@
+
+V	java:S110"<This class has 9 parents which is greater than 5 authorized.(ßâŞ£üÿÿÿÿ
+s
+java:S1450"VRemove the "toolbar" field and declare it as a local variable in the relevant methods.(ş®º—8Ë˜ÆÎÜ.
+m
+java:S1301d"KReplace this "switch" statement by "if" statements to increase readability.(øå´¡ÿÿÿÿÿ8íï˜ÑÜ.
+i
+java:S1128"GRemove this unused import 'com.google.android.material.tabs.TabLayout'.(é‘™Òıÿÿÿÿ8¡«ÉÎÜ.
+C	java:S131d""Add a default case to this switch.(øå´¡ÿÿÿÿÿ8íï˜ÑÜ.
+]
+java:S1128"@Remove this unused import 'androidx.viewpager.widget.ViewPager'.(¨Ù›æ8¡«ÉÎÜ.
+™
+java:S5527@"wEnable server hostname verification on this SSL/TLS connection, by setting "mail.smtp.ssl.checkserveridentity" to true.(£Ó±ùÿÿÿÿ8äÏ´ÑÜ.
+r	java:S116&"VRename this field "contraseÃ±a" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹æªí8íï˜ÑÜ.

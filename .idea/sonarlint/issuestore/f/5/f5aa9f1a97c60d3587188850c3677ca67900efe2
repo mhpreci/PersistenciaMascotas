@@ -1,0 +1,7 @@
+
+s
+java:S1450"VRemove the "toolbar" field and declare it as a local variable in the relevant methods.(ş®º—8›¾ÍÎÜ.
+m
+java:S1301%"KReplace this "switch" statement by "if" statements to increase readability.(øå´¡ÿÿÿÿÿ8ÖéŸÎÜ.
+V	java:S110"<This class has 9 parents which is greater than 5 authorized.(é¤ÈÏüÿÿÿÿ
+C	java:S131%""Add a default case to this switch.(øå´¡ÿÿÿÿÿ8ÖéŸÎÜ.
