@@ -1,6 +1,16 @@
 
-X	java:S125;"<This block of commented-out lines of code should be removed.(ş³ã 8øçÏÒÛ.
-]	java:S125#"<This block of commented-out lines of code should be removed.(ä‘”üÿÿÿÿ8ñ…Ä×Ú.
-u
-java:S2293/"YReplace the type specification in this constructor call with the diamond operator ("<>").(”ºÄj8ïËşÖÚ.
-X	java:S110"<This class has 9 parents which is greater than 5 authorized.(²Ú±8ä È©Ú.
+m
+java:S1301G"KReplace this "switch" statement by "if" statements to increase readability.(øå´¡ÿÿÿÿÿ8§üÃÜ.
+S
+java:S1068"1Remove this unused "listaAnimales" private field.(¿¶ïŞüÿÿÿÿ8åÒÀÌÜ.
+]	java:S1250"<This block of commented-out lines of code should be removed.(Ìæ·úÿÿÿÿ8¡É¢ËÜ.
+C	java:S131G""Add a default case to this switch.(øå´¡ÿÿÿÿÿ8÷øÃÜ.
+]	java:S1258"<This block of commented-out lines of code should be removed.(ä‘”üÿÿÿÿ8ñ…Ä×Ú.
+j
+java:S1128"HRemove this unused import 'com.mscode.myanimal.adapter.AnimalAdaptador'.(¢Ûß›úÿÿÿÿ8åÒÀÌÜ.
+E
+java:S1185""(Remove this method to simply inherit it.(œÆ “8¿ÅœËÜ.
+s
+java:S1450"VRemove the "toolbar" field and declare it as a local variable in the relevant methods.(ş®º—8ç£ËÜ.
+X	java:S125f"<This block of commented-out lines of code should be removed.(ş³ã 8øçÏÒÛ.
+X	java:S110"<This class has 9 parents which is greater than 5 authorized.(²Ú±8ä È©Ú.

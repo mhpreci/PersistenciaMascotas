@@ -1,5 +1,6 @@
 package com.mscode.myanimal.fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,9 +9,12 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
+import com.mscode.myanimal.DetalleAnimal;
 import com.mscode.myanimal.R;
 import com.mscode.myanimal.adapter.AnimalAdaptador;
 import com.mscode.myanimal.pojo.Animal;
@@ -35,6 +39,7 @@ public class RecyclerViewFragment  extends Fragment {
 
         listaAnimales.setLayoutManager(llm);
         inicializarListaAnimales();
+        pasarValores();
         inicializarAdaptador();
 
         return v;
@@ -57,4 +62,23 @@ public class RecyclerViewFragment  extends Fragment {
         animal.add(new Animal("Animal6",R.drawable.animales6,0));
         animal.add(new Animal("Animal7",R.drawable.animales7,0));
     }
+
+
+        public void pasarValores(){
+
+        PerfilFragment fragment = new PerfilFragment();
+        Bundle bundle = new Bundle();
+        bundle.putSerializable("data", animal);
+        fragment.setArguments(bundle);
+
+        //Una vez haz creado tu instancia de TestFragment y colocado el Bundle entre sus argumentos, usas el FragmentManager para iniciarla desde tu segunda actividad.
+        FragmentManager fm = getFragmentManager();
+        FragmentTransaction fragmentTransaction = fm.beginTransaction();
+        fragmentTransaction.replace(R.id.fragmen_perfil, fragment); //donde fragmentContainer_id es el ID del FrameLayout donde tu Fragment está contenido.
+        fragmentTransaction.commit();
+
+        }
+
+
+
 }
