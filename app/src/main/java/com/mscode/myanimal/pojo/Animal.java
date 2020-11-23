@@ -2,6 +2,8 @@ package com.mscode.myanimal.pojo;
 
 public class Animal {
 
+
+    private int id;
     private String nombre;
     private int ranking;
     private int foto;
@@ -10,6 +12,18 @@ public class Animal {
         this.nombre = nombre;
         this.ranking = ranking;
         this.foto = foto;
+    }
+
+    public Animal() {
+
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getNombre() {

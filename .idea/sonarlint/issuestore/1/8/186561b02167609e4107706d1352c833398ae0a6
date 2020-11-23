@@ -1,0 +1,8 @@
+
+
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(óÎ–¥8Ê¢ªŞ.
+i
+java:S20956"GUse try-with-resources or close this "BaseDatos" in a "finally" clause.(©ÈÅƒøÿÿÿÿ8¦‹•èŞ.
+]	java:S125"<This block of commented-out lines of code should be removed.(¯ÀñÑùÿÿÿÿ8»ÎòÇŞ.
+i
+java:S2095>"GUse try-with-resources or close this "BaseDatos" in a "finally" clause.(¦ÊÊÖùÿÿÿÿ8ÙÄ¡ñŞ.

@@ -1,8 +1,12 @@
 
-u
-java:S22936"YReplace the type specification in this constructor call with the diamond operator ("<>").(”ºÄj8·‰ÆÌÜ.
 O
-java:S1128"3Remove this unused import 'android.content.Intent'.(³ð‹G8þ•ÉÏÜ.
-`
-java:S1128">Remove this unused import 'com.mscode.myanimal.DetalleAnimal'.(²¡ó£úÿÿÿÿ8¡»ÇÏÜ.
-X	java:S125 "<This block of commented-out lines of code should be removed.(ûÂ¦Î8ÍÄ¤ÉÜ.
+java:S1068"-Remove this unused "presenter" private field.(ÆŠÿîÿÿÿÿÿ8·ŽÆõÝ.
+X	java:S125!"<This block of commented-out lines of code should be removed.(ûÂ¦Î8ÍÄ¤ÉÜ.
+L
+java:S1068"*Remove this unused "animal" private field.(çç˜Œýÿÿÿÿ8Ãè•žÞ.
+]	java:S1258"<This block of commented-out lines of code should be removed.(Ö±æ´ÿÿÿÿÿ8¢ä¥óÝ.
+z
+java:S1450"XRemove the "presenter" field and declare it as a local variable in the relevant methods.(ÆŠÿîÿÿÿÿÿ8’ÅÉõÝ.
+ƒ
+java:S1488P"aImmediately return this expression instead of assigning it to the temporary variable "adaptador".(Ë·³èûÿÿÿÿ8£’–óÝ.
+]	java:S125+"<This block of commented-out lines of code should be removed.(ˆöŽÚøÿÿÿÿ8Å€¥óÝ.

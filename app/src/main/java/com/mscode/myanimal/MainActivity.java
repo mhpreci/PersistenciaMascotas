@@ -14,7 +14,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.google.android.material.tabs.TabLayout;
-import com.mscode.myanimal.adapter.AnimalAdaptador;
 import com.mscode.myanimal.adapter.PageAdapter;
 import com.mscode.myanimal.fragment.PerfilFragment;
 import com.mscode.myanimal.fragment.RecyclerViewFragment;

@@ -9,6 +9,7 @@
     <dimen name="elevation_actionbar">4dp</dimen>
     <dimen name="corner_radius_cardview">4dp</dimen>
     <dimen name="margin_datos_arriba">4dp</dimen>
+    <dimen name="nombre_cardview">24dp</dimen>
 
 
 </resources>

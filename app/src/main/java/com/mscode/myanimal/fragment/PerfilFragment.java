@@ -2,8 +2,6 @@ package com.mscode.myanimal.fragment;
 
 import android.os.Bundle;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -16,18 +14,19 @@ import android.view.ViewGroup;
 import com.mscode.myanimal.R;
 import com.mscode.myanimal.adapter.AnimalAdaptador;
 import com.mscode.myanimal.pojo.Animal;
+import com.mscode.myanimal.presentador.IPerfilFragmentPresenter;
+import com.mscode.myanimal.presentador.IRecyclerViewFragmentPresenter;
+import com.mscode.myanimal.presentador.PerfilFragmentPresenter;
+import com.mscode.myanimal.presentador.RecyclerViewFragmentPresenter;
 
 import java.util.ArrayList;
 
 
-public class PerfilFragment extends Fragment {
+public class PerfilFragment extends Fragment implements  IPerfilFragmentView{
 
-    ArrayList<Animal> mayores;
-    private RecyclerView listaMayores;
-
-      public PerfilFragment() {
-        // Required empty public constructor
-    }
+    private ArrayList<Animal> animal;
+    private RecyclerView listaAnimales;
+    private IPerfilFragmentPresenter presenter;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -35,31 +34,28 @@ public class PerfilFragment extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_perfil,container,false);
 
-        Bundle bundle = this.getArguments();
+        listaAnimales = (RecyclerView) v.findViewById(R.id.rvContactos);
 
-        //mayores = (ArrayList<Animal>) getArguments().getSerializable("data");
-
-        if(bundle != null){
-            Log.d("hello", "entro");
-
-            mayores = (ArrayList<Animal>) bundle.getSerializable("data");
-
-            listaMayores = (RecyclerView) v.findViewById(R.id.rvContactos);
-
-            LinearLayoutManager llm = new LinearLayoutManager(getActivity());
-            llm.setOrientation(LinearLayoutManager.VERTICAL);
-
-            listaMayores.setLayoutManager(llm);
-            inicializarAdaptador();
-
-        }
-
+        presenter = new PerfilFragmentPresenter(this, getContext());
 
         return v;
+        }
+
+    @Override
+    public void generarLinearLayoutVertical() {
+        LinearLayoutManager llm = new LinearLayoutManager(getActivity());
+        llm.setOrientation(LinearLayoutManager.VERTICAL);
+        listaAnimales.setLayoutManager(llm);
     }
 
-    public void inicializarAdaptador(){
-        AnimalAdaptador adaptador = new AnimalAdaptador(mayores,getActivity());
-        listaMayores.setAdapter(adaptador);
+    @Override
+    public AnimalAdaptador crearAdaptador(ArrayList<Animal> animal) {
+        AnimalAdaptador adaptador = new AnimalAdaptador(animal,getActivity());
+        return adaptador;
+    }
+
+    @Override
+    public void inicializarAdaptadorRV(AnimalAdaptador adaptador) {
+        listaAnimales.setAdapter(adaptador);
     }
 }

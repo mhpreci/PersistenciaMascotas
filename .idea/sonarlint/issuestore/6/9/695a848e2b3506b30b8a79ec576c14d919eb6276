@@ -1,9 +1,2 @@
 
-U
-java:S1128"8Remove this unused import 'androidx.annotation.NonNull'.(ˆÛúÜ8…îßĞÜ.
-V
-java:S1128"9Remove this unused import 'androidx.annotation.Nullable'.(¾Èêš8…îßĞÜ.
-v
-java:S1488$"YImmediately return this expression instead of assigning it to the temporary variable "v".(µÂí¸8Ñ¦äĞÜ.
-X	java:S125&"<This block of commented-out lines of code should be removed.(ÃÖ¾†8Ñ¦äĞÜ.
-]	java:S125."<This block of commented-out lines of code should be removed.(Ÿ¶‰ÿıÿÿÿÿ8Ñ¦äĞÜ.
+]	java:S125&"<This block of commented-out lines of code should be removed.(£ÈŞ’úÿÿÿÿ8Ü•äğÜ.

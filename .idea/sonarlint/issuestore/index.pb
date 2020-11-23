@@ -5,8 +5,6 @@ g
 7app/src/main/java/com/mscode/myanimal/MainActivity.java,d\c\dce82e529446d3338d35037cacdeb10d58d8d4ab
 h
 8app/src/main/java/com/mscode/myanimal/DetalleAnimal.java,a\c\ac5b475de26654f3e43f73e128f303e10528ee42
-S
-#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 W
 'app/src/main/res/menu/menu_opciones.xml,0\5\058ad3f08b50354bc05b79b37debfe66cb923329
 r
@@ -17,8 +15,6 @@ f
 6app/src/main/java/com/mscode/myanimal/pojo/Animal.java,0\4\04bc5043a28c0083dcfdece0d87a0644be11e94a
 h
 8app/src/main/java/com/mscode/myanimal/AboutActivity.java,f\5\f5aa9f1a97c60d3587188850c3677ca67900efe2
-S
-#app/src/main/res/values/strings.xml,d\2\d2281fbb3027de2722081a53408dd77628bf080e
 R
 "app/src/main/res/values/styles.xml,f\7\f79cc2688e29fcbc286fda14ae07b27c9e83690f
 P
@@ -33,3 +29,15 @@ x
 Happ/src/main/java/com/mscode/myanimal/fragment/RecyclerViewFragment.java,7\f\7f7f0754d588889f7acac827b139b97b3b4046be
 k
 ;app/src/main/java/com/mscode/myanimal/ContactoActivity.java,c\e\ceae39d77a0de580b94064a1434e396451cd9747
+…
+Uapp/src/main/java/com/mscode/myanimal/presentador/IRecyclerViewFragmentPresenter.java,b\1\b108587a0382b9f0e2e1edee7187b7117f29e047
+q
+Aapp/src/main/java/com/mscode/myanimal/db/ConstructorAnimales.java,1\8\186561b02167609e4107706d1352c833398ae0a6
+}
+Mapp/src/main/java/com/mscode/myanimal/fragment/IRecyclerViewFragmentView.java,e\1\e1a720f441d30567ff2a33f883875dd8848ee5d3
+„
+Tapp/src/main/java/com/mscode/myanimal/presentador/RecyclerViewFragmentPresenter.java,5\f\5f35a3779e92ffc1a5195e16e1d8328acd26b023
+q
+Aapp/src/main/java/com/mscode/myanimal/db/ConstantesBaseDatos.java,4\0\409243854a203f47d2599a525facc04eef61cb84
+g
+7app/src/main/java/com/mscode/myanimal/db/BaseDatos.java,6\8\682a18d1bdba13292b2439c3ac9c335a830d4a03
